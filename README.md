@@ -2,8 +2,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1bfd9040-73da-4438-9d12-1947e015d19a/deploy-status)](https://app.netlify.com/sites/argentbank/deploys)
 
-# OPENCLASSROOMS PROJECT 13
-
 # Argent Bank
 
 Open website at [Argent Bank](https://argentbank.netlify.app/)
@@ -88,7 +86,7 @@ You can use the transactions page presented in the mockups to guide your choices
 - Clone the Backend Api onto your computer :  
 `git clone https://github.com/OpenClassrooms-Student-Center/Project-13-Bank-API.git`
 or :  
-`git clone https://github.com/Stevens-Mark/Project-13-Bank-API.git`
+`git clone https://github.com/Stevens-Mark/API-for-ArgentBank.git`
 
 - Follow the installation instructions carefully in the readme file provided.
 
@@ -97,7 +95,7 @@ or :
 
 - Clone this repository onto your computer:
 
-  `git clone https://github.com/Stevens-Mark/StevensMark_P13_02122021.git`
+  `git clone https://github.com/Stevens-Mark/ArgentBank.git`
 
 - Inside this repository, install the packages/dependencies: `yarn`
 
@@ -131,8 +129,6 @@ The App normally runs on http://localhost:3001/
 
 ## Phase 2 - Proposal - API Documentation
 The  document describing the proposed transaction APIs, following the Swagger guidelines can be found in the "Yaml" folder. Or once the local environment (backend) is started, visit: http://localhost:3001/api-docs
-
-# OPENCLASSROOMS PROJET 13
 
 # Argent Bank
 
@@ -223,7 +219,7 @@ Vous pouvez utiliser la page de transactions présentée dans les maquettes pour
 
   `git clone https://github.com/OpenClassrooms-Student-Center/Project-13-Bank-API.git`
 ou :
-  `git clone https://github.com/Stevens-Mark/Project-13-Bank-API.git`
+  `git clone https://github.com/Stevens-Mark/API-for-ArgentBank.git`
 
 - Suivez attentivement les instructions d'installation dans le fichier readme fourni.
 
@@ -232,7 +228,7 @@ ou :
 
 - Clonez ce référentiel sur votre ordinateur :
 
-  `git clone https://github.com/Stevens-Mark/StevensMark_P13_02122021.git`
+  `git clone https://github.com/Stevens-Mark/ArgentBank.git`
 
 - Dans ce dépôt, installez les paquets/dépendances : `yarn`
 
