@@ -15,7 +15,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
     store.dispatch(fetching())   // start the request
   try {
-    const response = await axios.post('http://localhost:3001/api/v1/user/profile', 
+    const response = await axios.post('https://argentbackbackend.onrender.com/api/v1/user/profile', 
     {}, 
     {
       headers: { 'Authorization': `Bearer ${token}` }
@@ -42,7 +42,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
     store.dispatch(updateSending())  // start the update request
   try {
-    const response = await axios.put('http://localhost:3001/api/v1/user/profile', 
+    const response = await axios.put('https://argentbackbackend.onrender.com/api/v1/user/profile', 
     {
       firstName, lastName
     }, 

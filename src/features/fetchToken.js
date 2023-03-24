@@ -13,7 +13,7 @@ import { createSlice } from '@reduxjs/toolkit'
 export async function fetchToken(store, email, password) {
      store.dispatch(fetching())      // start the request
   try {
-    const response = await axios.post('http://localhost:3001/api/v1/user/login', 
+    const response = await axios.post('https://argentbackbackend.onrender.com/api/v1/user/login', 
     {
       email, password
     })

@@ -1,12 +1,11 @@
 ![ArgentBank](/src/assets/images/argentBankLogo.png)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1bfd9040-73da-4438-9d12-1947e015d19a/deploy-status)](https://app.netlify.com/sites/argentbank/deploys)
 
 # Argent Bank
 
 Open website at [Argent Bank](https://argentbank.netlify.app/)
 
-- Although without the backend you will only be able to access the home & sign in pages.
+- This Version runs with the bachend deployed on RENDER
 
 ## Use an API for a bank user account with React
 
@@ -83,17 +82,12 @@ You can use the transactions page presented in the mockups to guide your choices
 
 ### First - Backend Api
 
-- Clone the Backend Api onto your computer :  
-`git clone https://github.com/OpenClassrooms-Student-Center/Project-13-Bank-API.git`
-or :  
-`git clone https://github.com/Stevens-Mark/API-for-ArgentBank.git`
-
-- Follow the installation instructions carefully in the readme file provided.
+- The backend is already running on RENDER
 
 
 ### Second - Frontend App
 
-- Clone this repository onto your computer:
+- Clone this repository onto your computer: branch "deploy"
 
   `git clone https://github.com/Stevens-Mark/ArgentBank.git`
 
@@ -101,14 +95,14 @@ or :
 
 - Run the Frontend App: `yarn start`
 
-- You will see the message :
+- You may see the message :
 
   `? something is already running on port 3000.`
   `Would you like to run the app on another port instead >> (Y/n)`
 
 - Answer: Y
 
-The App normally runs on http://localhost:3001/
+The App normally runs on http://localhost:3001/ otherwise it will be on http://localhost:3000/ 
 
 **Warning, currently only two users.**
 
@@ -127,14 +121,12 @@ The App normally runs on http://localhost:3001/
 - Password: `password456`
 
 
-## Phase 2 - Proposal - API Documentation
-The  document describing the proposed transaction APIs, following the Swagger guidelines can be found in the "Yaml" folder. Or once the local environment (backend) is started, visit: http://localhost:3001/api-docs
 
 # Argent Bank
 
 Ouvrir le site web à [Argent Bank](https://argentbank.netlify.app/)
 
-- Bien que sans le backend, vous ne pourrez accéder qu'aux pages d'accueil et de connexion.
+- Cette version fonctionne avec le bachend déployé sur RENDER
 
 ## Utilisez une API pour un compte utilisateur bancaire avec React
 
@@ -215,18 +207,11 @@ Vous pouvez utiliser la page de transactions présentée dans les maquettes pour
 
 ### Premièrement - Backend Api
 
-- Clonez l'Api Backend sur votre ordinateur :
-
-  `git clone https://github.com/OpenClassrooms-Student-Center/Project-13-Bank-API.git`
-ou :
-  `git clone https://github.com/Stevens-Mark/API-for-ArgentBank.git`
-
-- Suivez attentivement les instructions d'installation dans le fichier readme fourni.
-
+- Le backend fonctionne déjà sur RENDER
 
 ### Second - Frontend App
 
-- Clonez ce référentiel sur votre ordinateur :
+- Clonez ce référentiel sur votre ordinateur : branche "deploy"
 
   `git clone https://github.com/Stevens-Mark/ArgentBank.git`
 
@@ -234,14 +219,14 @@ ou :
 
 - Exécutez l'application frontale : `yarn start`
 
-- Vous verrez le message :
+- Le message suivant peut s'afficher:
 
   `? something is already running on port 3000.`
   `Would you like to run the app on another port instead >> (Y/n)`
 
 - répondre: Y
 
-L'application fonctionne normalement sur http://localhost:3001/
+- L'application fonctionne normalement sur http://localhost:3001/, sinon elle sera sur http://localhost:3000/
 
 
 **Attention, actuellement seulement deux utilisateurs.**
@@ -260,5 +245,3 @@ L'application fonctionne normalement sur http://localhost:3001/
 - Email: `steve@rogers.com`
 - Password: `password456`
 
-## Phase 2 - Proposition - API Documentation
-Le document décrivant les API de transaction proposées, suivant les directives Swagger, se trouve dans le dossier "Yaml". Ou une fois que l'environnement local (backend) est démarré, visitez : http://localhost:3001/api-docs.
