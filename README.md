@@ -1,9 +1,9 @@
 ![ArgentBank](/src/assets/images/argentBankLogo.png)
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1496726c-7dc5-4226-aec4-7eba122e60ce/deploy-status)](https://app.netlify.com/sites/argentbankdeployed/deploys)
 # Argent Bank
 
-Open website at [Argent Bank](https://argentbank.netlify.app/)
+Open website at [Argent Bank](https://argentbankdeployed.netlify.app/)
 
 - This Version runs with the bachend deployed on RENDER
 
@@ -124,7 +124,7 @@ The App normally runs on http://localhost:3001/ otherwise it will be on http://l
 
 # Argent Bank
 
-Ouvrir le site web à [Argent Bank](https://argentbank.netlify.app/)
+Ouvrir le site web à [Argent Bank](https://argentbankdeployed.netlify.app/)
 
 - Cette version fonctionne avec le bachend déployé sur RENDER
 
